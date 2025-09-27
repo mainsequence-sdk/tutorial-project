@@ -20,7 +20,7 @@ attrs==25.3.0
     #   aiohttp
     #   jsonschema
     #   referencing
-beautifulsoup4==4.13.5
+beautifulsoup4==4.14.0
     # via
     #   feedfinder2
     #   nbconvert
@@ -151,11 +151,11 @@ lxml==6.0.2
     #   newspaper3k
 lxml-html-clean==0.4.2
     # via mainsequence
-mainsequence==2.0.0
+mainsequence==2.0.2
     # via tutorial-project (pyproject.toml)
 markdown-it-py==4.0.0
     # via rich
-markupsafe==3.0.2
+markupsafe==3.0.3
     # via
     #   jinja2
     #   nbconvert

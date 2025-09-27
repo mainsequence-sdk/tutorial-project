@@ -1,0 +1,38 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug random_number_launcher",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/random_number_launcher.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug random_daily_addition_launcher",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/random_daily_addition_launcher.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "${workspaceFolder}/.venv/bin/python"
+        },
+        {
+            "name": "Debug simulated_prices_launcher",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/simulated_prices_launcher.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "python": "${workspaceFolder}/.venv/bin/python"
+        }
+    ]
+}

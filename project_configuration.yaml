@@ -1,0 +1,9 @@
+name: "Tutorial job Configuration"
+jobs:
+  - name: "Simulated Prices"
+    resource:
+      script:
+        path: "scripts/simulated_prices_launcher.py"
+    schedule:
+      type: "crontab"
+      expression: "0 0 * * *"

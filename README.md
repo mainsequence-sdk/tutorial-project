@@ -1,6 +1,6 @@
 # tutorial-project
 
-${PROJECT_DESCRIPTION}
+This is an example project part of the getting started  tutorial. 
 
 ## Quickstart
 

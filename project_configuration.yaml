@@ -7,3 +7,11 @@ jobs:
     schedule:
       type: "crontab"
       expression: "0 0 * * *"
+jobs:
+  - name: "Random Number Lancher Daily "
+    resource:
+      script:
+        path: "scripts/random_number_launcher.py"
+    schedule:
+      type: "crontab"
+      expression: "0 0 * * *"
